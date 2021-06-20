@@ -1,0 +1,155 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+  font-family: 'Mulish', sans-serif;
+}
+p {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color: white; !important;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 185px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+
+
+
+/* Navigation links */
+.customNav a {
+  color: #334E58 !important;
+}
+.navCTA {
+  font-size: 15px;
+  font color: #FFFFFF !important;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.icons img {
+  margin: 15px;
+  cursor: pointer;
+}
+
+
+/* Jumbotron
+   figure out how to align text on the right*/
+
+.jumbotron {
+  background-image: url(../images/KnitCircle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(75vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Jumbotron copy */
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+/* Cards */
+.content {
+  padding: 50px;
+}
+.sectionHeading {
+  text-align: center;
+}
+.showsNear  {
+  padding: 0px 30px 30px 30px;
+}
+.cardContainer {
+  text-align: center;
+}
+
+/* Content */
+
+
+
+/* Carousel for Charity */
+.charities {
+  height: 250px;
+  background-color: #F6F6F6;
+  justify-content: center;
+  padding: 40px;
+}
+
+.carousel-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.charity-logo {
+  padding-top: 55px;
+  width: 100px;
+  height: 100px;
+}
+
+
+/* Footer */
+.emailContain {
+  background: url(../images/emailBG.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+/* Footer form */
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+.dropdown-menu {
+  left: -97px;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+}
+.cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
+}
