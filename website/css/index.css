@@ -30,6 +30,9 @@ p {
 .nav-item {
   margin: 0px 15px;
 }
+.navbar{
+  padding: 0px;
+}
 
 
 
@@ -67,6 +70,22 @@ p {
   justify-content: center;
 }
 
+.hero-row{
+  height: calc(75vh - 25px);
+}
+
+.col-sm-12 {
+  background-image: url(../images/KnittingGroup.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(75vh - 25px);
+}
+.sidebar{
+  background-color: white;
+  margin: 20px;
+}
+
+
 /* Jumbotron copy */
 .jumboCopy {
   width: 70%;
@@ -80,9 +99,8 @@ p {
   background-color: #6ADCD4;
   border-color: #6ADCD4;
 }
-/*.btn-width {
-  width: 200px;
-}*/
+
+
 
 /* Cards */
 .sectionHeading {
@@ -99,10 +117,20 @@ p {
   text-align: center;
 }
 
-/* Content */
-.container-fluid {
+
+/* Content attempt 2 */
+.row {
+  margin: 25px;
+}
+.col-3 .row {
+  margin: 5px;
+}
+
+
+/* Content attempt 1 */
+/*.container-fluid {
   display: flex;
-/*  padding: 2vh;*/
+  padding: 2vh;
   margin: 24px;
   width: 100%;
 }
@@ -136,20 +164,15 @@ p {
   margin-bottom: 2px;
 }
 .button-center {
-/*  display: flex;*/
+  display: flex;
   align-items: center;
-}
-/*.test-button {
-  width: 45%;
-  height: 40px;
-  background-color: red;
-}
-.test-button-outline {
-  width: 45%;
-  height: 40px;
-  border-color: red;
-  border-width: 2px;
 }*/
+
+
+
+
+
+
 
 /* Carousel for Charity */
 .charities {
