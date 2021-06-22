@@ -2,10 +2,6 @@
 h1, h2, h3 , h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
 }
-h1 {
-  font size: 45px;
-  font-weight: 700;
-}
 p {
   font-family: 'Mulish', sans-serif;
 }
@@ -29,9 +25,6 @@ p {
 }
 .nav-item {
   margin: 0px 15px;
-}
-.navbar{
-  padding: 0px;
 }
 
 
@@ -60,117 +53,90 @@ p {
 /* Jumbotron
    figure out how to align text on the right*/
 
-.jumbotron {
-  background-image: url(../images/KnittingGroup.png);
+#ProjectPageHeroGrid {
+  display: grid;
+  min-height: 500px;
+  height: 10em;
+  width: 100vw;
+  grid-template-columns: 40% 60%;
+  grid-template-areas:
+  "jumbotronImage pageheaderText"
+}
+
+
+#JumbotronImage{
+  grid-area: jumbotronImage;
+  background-image: url("../images/woman-knitting.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(75vh - 25px);
+  /*height: 30em;*/
+  /*width: 100vw;*/
   display: flex;
+  align-items: left;
+  justify-content: center;
+
+}
+
+.jumbotronImage{
+  height: 30em;
+  width: 85vw;
+}
+
+#pageheaderText {
+  grid-area: pageheaderText;
+  width: 45vw;
+  background-image: url("../images/HeaderRec.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 24.5em;
   align-items: center;
   justify-content: center;
+
 }
 
-.hero-row{
-  height: calc(75vh - 25px);
+.pageheaderText{
+  grid-area: pageheaderText;
+  width: 60%;
+  color: black;
+  text-align: left;
+  position: absolute;
+  right: 50px;
+  top: 90px;
+  padding: 5%;
+  z-index: 100;
+  justify-content: center;
+    }
+.pageHeading{
+  margin-left: 40px;
 }
 
-.col-sm-12 {
-  background-image: url(../images/KnittingGroup.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: calc(75vh - 25px);
+.headerBlurb{
+  margin-left: 40px;
 }
-.sidebar{
-  background-color: white;
-  margin: 20px;
-}
-
-
-/* Jumbotron copy */
-.jumboCopy {
-  width: 70%;
-  min-width: 500px;
-  max-width: 700px;
-  color: white;
-  text-align: center;
-}
-.btn-info {
-  color: #000000;
-  background-color: #6ADCD4;
-  border-color: #6ADCD4;
-}
-
 
 
 /* Cards */
+.content {
+  padding: 50px;
+}
 .sectionHeading {
   text-align: center;
 }
-.spacing {
-  padding-top: 75px;
-}
-
-.blogCards  {
+.showsNear  {
   padding: 0px 30px 30px 30px;
 }
 .cardContainer {
   text-align: center;
 }
 
+/*search field*/
 
-/* Content attempt 2 */
-.row {
-  margin: 25px;
-}
-.col-3 .row {
-  margin: 5px;
+.form-inline{
+  align: right;
 }
 
 
-/* Content attempt 1 */
-/*.container-fluid {
-  display: flex;
-  padding: 2vh;
-  margin: 24px;
-  width: 100%;
-}
-.flex-row {
-  flex-direction: row;
-  display: inline-flex;
-  padding: 15px;
-  flex-basis: 75%;
-}
-.flex-row .text{
-  padding: 0px;
-  justify-content: center;
-}
-
-.flex-row-head{
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-}
-.flex-column{
-  flex-direction: column;
-  width: 100%;
-}
-.flex-column-button {
-  flex-direction: column;
-  justify-content: center;
-  flex-basis: 25%;
-}
-.flex-column-button .btn {
-  margin-top: 18px;
-  margin-bottom: 2px;
-}
-.button-center {
-  display: flex;
-  align-items: center;
-}*/
-
-
-
-
+/* Content */
 
 
 
@@ -189,13 +155,28 @@ p {
 }
 
 .charity-logo {
-  padding: 25px;
-  width: 150px;
+  padding-top: 55px;
+  width: 100px;
+  height: 100px;
 }
 
+/* Charity Drive Cards */
+
+.card-title{
+  text-align: left;
+}
+
+.card-description{
+  text-align: left;
+}
+
+.tracker{
+ padding: 0px 30px 30px 30px
+ }
 
 /* Footer */
 .emailContain {
+  background-size: cover;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -203,7 +184,6 @@ p {
   justify-content: center;
   height: 500px;
 }
-
 
 /* Footer form */
 form {
@@ -216,6 +196,11 @@ form {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
   background-color: white;
 }
+.nav-item.active{
+font-type: Mulish;
+font-color: black;
+}
+
 
 /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
 .dropdown-menu {
@@ -235,3 +220,45 @@ footer {
 .card {
   margin: 0 auto;
 }
+
+@media screen and (max-width: 997px) and (min-width: 0px) {
+  #jumbotronImage {
+    background-image:  none;
+    width: 0px;
+  }
+  #pageheaderText {
+    width: 100vw;
+    z-index: 1;
+    background-image: url("../images/BlueRec.png");
+}
+  .pageheaderText {
+    padding: 5%;
+    margin-left: 10px;
+  }
+  }
+
+
+
+
+
+
+
+/*.pageheaderText{
+  grid-area: pageheaderText;
+  width: 60%;
+  color: black;
+  text-align: left;
+  position: absolute;
+  right: 50px;
+  top: 90px;
+  padding: 5%;
+  z-index: 100;
+  justify-content: center;
+    }
+.pageHeading{
+  margin-left: 40px;
+}
+
+.headerBlurb{
+  margin-left: 40px;
+}*/*/*/
