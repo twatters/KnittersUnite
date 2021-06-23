@@ -4,7 +4,7 @@ body {
 }
 /* Header Styles */
 .header {
-  background-image: url(../images/KnittingGroup.png);
+  background-image: url("../images/KnittingGroup.png");
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 500px;
