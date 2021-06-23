@@ -10,6 +10,33 @@ p {
   font-family: 'Mulish', sans-serif;
 }
 
+/* unvisited link */
+a:link {
+  color: #000000;
+}
+
+/* visited link */
+a:visited {
+  color: #334E58;
+}
+
+/* mouse over link */
+a:hover {
+  color: #6ADCD5;
+}
+
+/* selected link */
+a:active {
+  color: #334E58;
+}
+
+hr {
+  border: 3px #F6C35D;
+ }
+
+
+
+
 /* Navigation bar */
 
 /* General */
@@ -33,6 +60,9 @@ p {
 .navbar{
   padding: 0px;
 }
+.button-center {
+  text-align: center;
+}
 
 
 
@@ -41,7 +71,7 @@ p {
   color: #334E58 !important;
 }
 .navCTA {
-  font-size: 15px;
+  font-size: 14px;
   font color: #FFFFFF !important;
 }
 
@@ -57,48 +87,67 @@ p {
 }
 
 
-/* Jumbotron
-   figure out how to align text on the right*/
 
-.jumbotron {
-  background-image: url(../images/KnittingGroup.png);
+/* jumbotron attempt 3 */
+#ProjectPageHeroGrid {
+  display: grid;
+  min-height: 500px;
+  height: 10em;
+  width: 100vw;
+  grid-template-columns: 60% 40%;
+  grid-template-areas:
+  "jumbotronImage pageheaderText"
+}
+
+#JumbotronImage{
+  background-image: url("../images/KnittingGroup.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(75vh - 25px);
-  display: flex;
-  align-items: center;
+  /*height: 30em;*/
+  width: 100vw;
+  display: grid;
+  align-items: left;
   justify-content: center;
 }
 
-.hero-row{
-  height: calc(75vh - 25px);
-}
+/*.jumbotronImage{
+  height: 30em;
+  width: 85vw;
+}*/
 
-.col-sm-12 {
-  background-image: url(../images/KnittingGroup.png);
+#pageheaderText {
+  grid-area: pageheaderText;
+  width: 45vw;
+  background-image: url("../images/HeaderRec.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(75vh - 25px);
+  height: 26.75em;
+  align-items: center;
+  justify-content: center;
 }
-.sidebar{
-  background-color: white;
-  margin: 20px;
+.pageheaderText{
+  grid-area: pageheaderText;
+/*  background-image: url("../images/HeaderRec.png");
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  width: 46vh;
+  color: black;
+  text-align: left;
+  position: absolute;
+  right: 0px;
+  top: 74px;
+  padding-left: 10%;
+  padding-top: 8%;
+  z-index: 100;
+  justify-content: center;
+}
+.pageHeading{
+  margin-left: 40px;
+}
+.headerBlurb{
+  margin-left: 40px;
 }
 
-
-/* Jumbotron copy */
-.jumboCopy {
-  width: 70%;
-  min-width: 500px;
-  max-width: 700px;
-  color: white;
-  text-align: center;
-}
-.btn-info {
-  color: #000000;
-  background-color: #6ADCD4;
-  border-color: #6ADCD4;
-}
 
 
 
@@ -115,63 +164,27 @@ p {
 }
 .cardContainer {
   text-align: center;
+  padding: 15px;
 }
 
 
 /* Content attempt 2 */
 .row {
-  margin: 25px;
+  margin: 24px;
+  margin-top: 40px;
+  margin-bottom: 32px;
 }
 .col-3 .row {
   margin: 5px;
 }
 
-
-/* Content attempt 1 */
-/*.container-fluid {
-  display: flex;
-  padding: 2vh;
-  margin: 24px;
-  width: 100%;
-}
-.flex-row {
-  flex-direction: row;
-  display: inline-flex;
-  padding: 15px;
-  flex-basis: 75%;
-}
-.flex-row .text{
-  padding: 0px;
-  justify-content: center;
+.row .special-section {
+  margin-top: 25px;
 }
 
-.flex-row-head{
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
+#btn-special{
+  width: 175px;
 }
-.flex-column{
-  flex-direction: column;
-  width: 100%;
-}
-.flex-column-button {
-  flex-direction: column;
-  justify-content: center;
-  flex-basis: 25%;
-}
-.flex-column-button .btn {
-  margin-top: 18px;
-  margin-bottom: 2px;
-}
-.button-center {
-  display: flex;
-  align-items: center;
-}*/
-
-
-
-
-
 
 
 /* Carousel for Charity */
@@ -194,28 +207,64 @@ p {
 }
 
 
+.special-section {
+  margin-bottom: 48px;
+}
+
+
+
+
 /* Footer */
 .emailContain {
+  background-color: #EBFAF9;
   display: flex;
   align-items: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 400px;
 }
+.footer-nav-item {
+
+}
+.footer-nav{
+  margin-top: 20px;
+  border-bottom: 6px white;
+}
+
 
 
 /* Footer form */
 form {
-  width: 500px;
-  margin: 35px auto;
-  padding: 45px;
-  border: 1px solid #F2F2F2;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
-  background-color: white;
+  width: 400px;
+  margin: 30px auto;
+  padding: 25px;
+/*  border: 1px solid #F2F2F2;
+*/
 }
+
+
+
+
+/* Media queries */
+@media screen and (max-width: 997px) and (min-width: 0px) {
+  #jumbotronImage {
+    background-image:  none;
+    width: 0px;
+  }
+  #pageheaderText {
+    width: 100vw;
+    z-index: 1;
+    background-image: url("../images/BlueRec.png");
+}
+  .pageheaderText h1 h3 p{
+    padding: 5%;
+    margin: 40px;
+  }
+
+
+
+
 
 /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
 .dropdown-menu {
