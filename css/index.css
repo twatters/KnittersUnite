@@ -247,9 +247,9 @@ hr {
   color: #F6C35D;
 }*/
 
-.bg-icon {
+/*.bg-icon {
   background-color: #EBFAF9;  
-}
+}*/
 
 .form-control::placeholder {
   font-size: 0.95rem;
@@ -268,7 +268,9 @@ hr {
   text-align: center;
 }
 
-
+footer .container {
+    background-color: #EBFAF9;  
+}
 
 
 
