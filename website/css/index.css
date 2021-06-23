@@ -1,6 +1,7 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
+  text-align: left;
 }
 h1 {
   font size: 45px;
@@ -8,6 +9,7 @@ h1 {
 }
 p {
   font-family: 'Mulish', sans-serif;
+  text-align: left;
 }
 
 /* unvisited link */
@@ -36,12 +38,11 @@ hr {
 
 
 
-
 /* Navigation bar */
 
 /* General */
 .customNav {
-  position: fixed;
+  position: absolute;
   width: 100%;
   background-color: white; !important;
   z-index: 10;
@@ -63,7 +64,6 @@ hr {
 .button-center {
   text-align: center;
 }
-
 
 
 /* Navigation links */
@@ -127,9 +127,6 @@ hr {
 }
 .pageheaderText{
   grid-area: pageheaderText;
-/*  background-image: url("../images/HeaderRec.png");
-  background-size: cover;
-  background-repeat: no-repeat;*/
   width: 46vh;
   color: black;
   text-align: left;
