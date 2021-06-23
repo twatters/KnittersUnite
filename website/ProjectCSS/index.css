@@ -2,8 +2,13 @@
 h1, h2, h3 , h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
 }
-p {
+h1 {
+  font size: 45px;
+  font-weight: 700;
+}
+p body {
   font-family: 'Mulish', sans-serif;
+  text-align: left;
 }
 
 /* Navigation bar */
@@ -27,6 +32,33 @@ p {
   margin: 0px 15px;
 }
 
+/* Navigation bar */
+
+/* General */
+.customNav {
+  position: absolute;
+  width: 100%;
+  background-color: white; !important;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 185px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+.navbar{
+  padding: 0px;
+}
+.button-center {
+  text-align: center;
+}
+
 
 
 /* Navigation links */
@@ -34,10 +66,9 @@ p {
   color: #334E58 !important;
 }
 .navCTA {
-  font-size: 15px;
+  font-size: 14px;
   font color: #FFFFFF !important;
 }
-
 .icons {
   display: flex;
   justify-content: flex-end;
@@ -50,6 +81,7 @@ p {
 }
 
 
+
 /* Jumbotron
    figure out how to align text on the right*/
 
@@ -58,7 +90,7 @@ p {
   min-height: 500px;
   height: 10em;
   width: 100vw;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 60% 40%;
   grid-template-areas:
   "jumbotronImage pageheaderText";
 }
@@ -70,8 +102,8 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   /*height: 30em;*/
-  width: 95vw;
-  display: flex;
+  width: 100vw;
+  display: grid;
   align-items: left;
   justify-content: center;
 
@@ -84,34 +116,32 @@ p {
 
 #pageheaderText {
   grid-area: pageheaderText;
-  width: 46vw;
+  width: 45vw;
   background-image: url("../images/HeaderRec.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 25.75em;
+  height: 26.75em;
   align-items: center;
   justify-content: center;
-
 }
 
 .pageheaderText{
   grid-area: pageheaderText;
-  /*width: 60%;*/
   width: 46vh;
   color: black;
   text-align: left;
   position: absolute;
   right: 0px;
-  top: 90px;
-  padding-left: 10%;
-  padding-top: 8%;
+  top: 74px;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
   z-index: 100;
   justify-content: center;
     }
 .pageHeading{
   margin-left: 40px;
 }
-
 .headerBlurb{
   margin-left: 40px;
 }
@@ -184,6 +214,13 @@ p {
 .tracker{
  padding: 0px 30px 30px 30px
  }
+
+.progress{
+  margin-bottom: 30px;
+  font-size: 12pt;
+}
+
+
 
 /* Footer */
 .emailContain {
