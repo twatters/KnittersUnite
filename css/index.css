@@ -1,0 +1,313 @@
+/*home page css*/
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+  font-family: 'Mulish', sans-serif;
+  text-align: left;
+}
+h1 {
+  font size: 45px;
+  font-weight: 700;
+}
+p {
+  font-family: 'Mulish', sans-serif;
+  text-align: left;
+}
+
+/* unvisited link */
+a:link {
+  color: #000000;
+}
+
+/* visited link */
+a:visited {
+  color: #334E58;
+}
+
+/* mouse over link */
+a:hover {
+  color: #6ADCD5;
+}
+
+/* selected link */
+a:active {
+  color: #334E58;
+}
+
+hr {
+  border: 3px #F6C35D;
+ }
+
+
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+  position: absolute;
+  width: 100%;
+  background-color: white; !important;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 185px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+.navbar{
+  padding: 0px;
+}
+.button-center {
+  text-align: center;
+}
+
+
+/* Navigation links */
+.customNav a {
+  color: #334E58 !important;
+}
+.navCTA {
+  font-size: 14px;
+  font color: #FFFFFF !important;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.icons img {
+  margin: 15px;
+  cursor: pointer;
+}
+
+
+
+/* jumbotron attempt 3 */
+#ProjectPageHeroGrid {
+  display: grid;
+  min-height: 500px;
+  height: 10em;
+  width: 100vw;
+  grid-template-columns: 60% 40%;
+  grid-template-areas:
+  "jumbotronImage pageheaderText"
+}
+
+#JumbotronImage{
+  background-image: url("../images/KnittingGroup.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*height: 30em;*/
+  width: 100vw;
+  display: grid;
+  align-items: left;
+  justify-content: center;
+}
+
+/*.jumbotronImage{
+  height: 30em;
+  width: 85vw;
+}*/
+
+#pageheaderText {
+  grid-area: pageheaderText;
+  width: 45vw;
+  background-image: url("../images/HeaderRec.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 26.75em;
+  align-items: center;
+  justify-content: center;
+}
+.pageheaderText{
+  grid-area: pageheaderText;
+  width: 46vh;
+  color: black;
+  text-align: left;
+  position: absolute;
+  right: 0px;
+  top: 74px;
+  padding-left: 10%;
+  padding-top: 8%;
+  z-index: 100;
+  justify-content: center;
+}
+.pageHeading{
+  margin-left: 40px;
+}
+.headerBlurb{
+  margin-left: 40px;
+}
+
+
+
+
+/* Cards */
+.sectionHeading {
+  text-align: center;
+}
+.spacing {
+  padding-top: 75px;
+}
+
+.blogCards  {
+  padding: 0px 30px 30px 30px;
+}
+.cardContainer {
+  text-align: center;
+  padding: 15px;
+}
+
+
+/* Content attempt 2 */
+.row {
+  margin: 24px;
+  margin-top: 60px;
+  margin-bottom: 48px;
+}
+.col-3 .row {
+  margin: 5px;
+}
+
+.row .special-section {
+  margin-top: 25px;
+}
+
+#btn-special{
+  width: 175px;
+}
+
+
+/* Carousel for Charity */
+.charities {
+  height: 250px;
+  background-color: #F6F6F6;
+  justify-content: center;
+  padding: 40px;
+}
+
+.carousel-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.charity-logo {
+  padding: 25px;
+  width: 150px;
+}
+
+
+.special-section {
+  margin-bottom: 48px;
+}
+
+
+
+
+/* Footer Attempt 1 */
+/*.emailContain {
+  background-color: #EBFAF9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.footer-nav-item {
+}
+.footer-nav{
+  margin-top: 20px;
+  border-bottom: 6px white;
+}*/
+/* Footer form */
+/*form {
+  width: 400px;
+  margin: 30px auto;
+  padding: 25px;*/
+/*  border: 1px solid #F2F2F2;
+*/
+}
+
+
+
+/* Footer Attempt 2 */
+#button-addon1 {
+  color: #ffc371;
+}
+
+/*i {
+  color: #F6C35D;
+}*/
+
+.bg-icon {
+  background-color: #EBFAF9;  
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+/*.form-control.shadow-0:focus {
+  box-shadow: none;
+}*/
+
+.form-group img{
+  padding: 5px;
+}
+.text-center {
+  text-align: center;
+}
+
+
+
+
+
+/* Media queries */
+@media screen and (max-width: 997px) and (min-width: 0px) {
+  #jumbotronImage {
+    background-image:  none;
+    width: 0px;
+  }
+  #pageheaderText {
+    width: 100vw;
+    z-index: 1;
+    background-image: url("../images/BlueRec.png");
+}
+  .pageheaderText h1 h3 p{
+    padding: 5%;
+    margin: 40px;
+  }
+
+
+
+
+
+/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+.dropdown-menu {
+  left: -97px;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #EBFAF9;
+  margin-top: 50px;
+}
+.cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
+}

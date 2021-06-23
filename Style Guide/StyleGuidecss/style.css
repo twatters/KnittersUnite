@@ -1,18 +1,19 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  color: #334E58;
 }
 /* Header Styles */
 .header {
-  background-image: url(../images/upsBackground.png);
+  background-image: url(../images/KnittingGroup.png);
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 500px;
-  height: 250px;
-  background-position: bottom;
+  height: 350px;
+  background-position: center;
 }
 #pageTopic {
   text-align: center;
-  font-size: 30px;
+  font-size: 48px;
   font-weight: 900;
 }
 /* Primary Color */
@@ -21,44 +22,44 @@ body {
   margin: 15px;
 }
 .swatch {
-   height: 200px;
+   height: 170px;
    width: 170px;
    border: 1px solid black;
 }
 .hexCode {
    padding: 15px;
    text-align: center;
-   border: 1px solid black;
+/*   border: 1px solid black;*/
    border-top: none;
    border-bottom-left-radius: 7px;
    border-bottom-right-radius: 7px;
 }
-.darkBlue {
-  background-color: #333366;
+.primaryBlue {
+  background-color: #6ADCD5;
 }
-.darkGrey {
-  background-color: #545454;
+.primaryDarkBlue {
+  background-color: #334E58;
 }
-.lightGrey {
-  background-color: #E3E3E3;
+.primaryMustard {
+  background-color: #F6C35D;
 }
-.white {
-  background-color: #FFFFFF;
+.secondaryGrey {
+  background-color: #6B6D76;
 }
-.lightBlue {
-  background-color: #12A0F6;
+.secondaryCoral {
+  background-color: #F6C3B7;
 }
-.red {
-  background-color: #F84848;
+.primaryCoral {
+  background-color: #FF6B6C;
 }
-.orange {
-  background-color: #FC7705;
+.secondaryBlueTint {
+  background-color: #EBFAF9;
 }
-.lightBlue {
-  background-color: #13A0F6;
+.successGreen {
+  background-color: #C0E7A9;
 }
-.lightGreen {
-  background-color: #8ABE48;
+.backgroundGrey {
+  background-color: #F6F6F6;
 }
 /* Typography CSS */
 .type_container {
@@ -66,7 +67,7 @@ body {
    margin: 20px;
 }
 .large {
-    font-size: 66px;
+    font-size: 48px;
     margin-bottom: 15px;
     margin-bottom: 15px;
     margin-top: 0;
@@ -81,8 +82,8 @@ body {
     font-weight: 700;
 }
 .typography h1 {
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 700;
+    font-size: 48px;
 }
 .typography h2 {
     font-weight: 700;
@@ -100,42 +101,67 @@ body {
 .button {
    display: inline-block;
    padding: 15px;
-   margin: 15px;
+   margin: 10px;
    width: 150px;
-   font-size: 14px;
+   border-radius: 4px;
+   font-size: 16px;
    text-align: center;
-   color: white;
+   color: #000000;
 }
 .primary {
-  background-color: #2B459A;
+  background-color: #6ADCD5;
 }
 .success {
-  background-color: #8ABE48;
+  background-color: #F6C35D;
 }
 .danger {
   background-color: #F84848;
 }
 .warning {
-  background-color: #FC7705;
+  background-color: #FFFFFF;
+   border: 2px solid #6ADCD5;
 }
 .info {
   background-color: #0099FA;
 }
 .primaryActive {
-  background-color: #3A66B7;
+  background-color: #00D1C5;
 }
 .successActive {
-  background-color: #668C35;
+  background-color: #DD9300;
 }
 .dangerActive {
   background-color: #AD4848;
 }
 .warningActive {
-  background-color: #BA7A43;
+  background-color: #EBFAF9;
+  border: 2px solid #6ADCD5;
 }
 .infoActive {
   background-color: #4386BA;
 }
 .sectionHead {
-  border-bottom: 8px solid #DDDDDD;
+  border-bottom: 8px solid #EBFAF9;
+}
+
+
+.icons {
+  width: 75px;
+  margin: 10px;
+}
+.social {
+  width: 30px;
+  margin: 10px;
+}
+.photo {
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  width: 350px;
+}
+.photo-feature {
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  width: 1155px;
 }
