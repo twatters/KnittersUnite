@@ -252,13 +252,13 @@ font-color: black;
 
 
 /*search in project page*/
-#searchField{
+/*#searchField{
   color: black;
   background-color: white;
   border-color: #D6E4EC;
   padding: 10px;
   width: 375px;
-  text-align: left;
+  text-align: left;*/
 /*  -webkit-box-shadow: 0px;
   -moz-box-shadow: 0px;
   box-shadow: 0px; */
@@ -275,6 +275,8 @@ font-color: black;
 
 .dropdown-toggle{
   color: black;
+  width: 375px;
+  text-align: left;
 }
 
 .btn-secondary {
@@ -286,10 +288,19 @@ font-color: black;
     text-align: left;
 }
 
+.form-group{
+  width: 375px;
+}
+
 #searchSort{
   margin-left: 65px;
   margin-top: 65px;
 }
+
+.dropdown {
+  width: 375px;
+}
+
 /*This was Vandana Trying to figure out how to move the arrow
 
 .dropdown-toggle {
