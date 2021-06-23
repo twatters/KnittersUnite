@@ -1,4 +1,4 @@
-/*home page css*/
+/*socks project CSS*/
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
@@ -93,7 +93,7 @@ hr {
 #ProjectPageHeroGrid {
   display: grid;
   min-height: 500px;
-  height: 10em;
+  height: 20em;
   width: 100vw;
   grid-template-columns: 60% 40%;
   grid-template-areas:
@@ -101,7 +101,7 @@ hr {
 }
 
 #JumbotronImage{
-  background-image: url("../images/KnittingGroup.png");
+  background-image: url("../images/SocksProject.png");
   background-size: cover;
   background-repeat: no-repeat;
   /*height: 30em;*/
@@ -146,10 +146,19 @@ hr {
   margin-left: 40px;
 }
 
+.progress{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 12pt;
+  width: 25vw;
+}
 
 
 
 /* Cards */
+#DescriptionRequirements{
+  margin-top: 40px;
+}
 .sectionHeading {
   text-align: center;
 }
@@ -165,25 +174,49 @@ hr {
   padding: 15px;
 }
 
+/*.ProjectHeading H2{
+  font size: 45px;
+  font-weight: 700;
+}*/
 
 /* Content attempt 2 */
-.row {
+/*.row {
   margin: 24px;
   margin-top: 40px;
   margin-bottom: 32px;
-}
-.col-3 .row {
+}*/
+.col-8  {
   margin: 5px;
+  max-width: 50%;
 }
 
-.row .special-section {
-  margin-top: 25px;
+.col-4{
+  max-width: 40%;
+  margin: 24px;
 }
+
+/*.col-12{
+  width: 100vw;
+}*/
+
+/*.row .special-section {
+  margin-top: 25px;
+}*/
 
 #btn-special{
-  width: 175px;
+  width: 255px;
 }
 
+.details{
+  font-size: 20px;
+}
+
+.socksMaterial{
+  text-align: left;
+}
+.card-body{
+  background-color: #EBFAF9;
+}
 
 /* Carousel for Charity */
 .charities {
