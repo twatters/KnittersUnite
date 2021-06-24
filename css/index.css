@@ -37,6 +37,13 @@ hr {
   border: 3px #F6C35D;
  }
 
+.btn-info {
+  background-color: #6ADCD5;
+  border: 0px;
+}
+.btn-outline-info {
+  border: solid 2px #6ADCD5;
+}
 
 
 /* Navigation bar */
