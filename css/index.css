@@ -187,7 +187,7 @@ hr {
 
 /* Carousel for Charity */
 .charities {
-  height: 250px;
+  height: 300px;
   background-color: #F6F6F6;
   justify-content: center;
   padding: 40px;
@@ -195,12 +195,13 @@ hr {
 
 .carousel-section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .charity-logo {
-  padding: 25px;
+  padding: 5px;
   width: 150px;
 }
 
@@ -212,41 +213,10 @@ hr {
 
 
 
-/* Footer Attempt 1 */
-/*.emailContain {
-  background-color: #EBFAF9;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 400px;
-}
-.footer-nav-item {
-}
-.footer-nav{
-  margin-top: 20px;
-  border-bottom: 6px white;
-}*/
-/* Footer form */
-/*form {
-  width: 400px;
-  margin: 30px auto;
-  padding: 25px;*/
-/*  border: 1px solid #F2F2F2;
-*/
-}
-
-
-
 /* Footer Attempt 2 */
 #button-addon1 {
   color: #ffc371;
 }
-
-/*i {
-  color: #F6C35D;
-}*/
 
 .bg-icon {
   background-color: #EBFAF9;  
@@ -269,7 +239,9 @@ hr {
   text-align: center;
 }
 
-
+footer .container {
+    background-color: #EBFAF9;  
+}
 
 
 
@@ -293,21 +265,13 @@ hr {
 
 
 
-/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
-.dropdown-menu {
+/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH */
+/*.dropdown-menu {
   left: -97px;
-}
-footer {
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #EBFAF9;
-  margin-top: 50px;
-}
-.cardContainer {
+}*/
+/*.cardContainer {
   margin-top: 20px;
-}
-.card {
+}*/
+/*.card {
   margin: 0 auto;
-}
+}*/
