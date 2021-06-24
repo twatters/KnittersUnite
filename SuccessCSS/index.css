@@ -130,75 +130,6 @@ hr {
 }
 
 
-/* jumbotron 2  */
-
-/*.jumbotron{
-  background-image: url("../images/Knit-square.png");
-  height: calc(75vh - 25vh);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.container {
-  display: flex;
-  height: 150px;  
-  background-color: rgba(255, 255, 255, 0.8);
-  align-items: center;
-  margin: 10px;
-  padding: 16px;
-}*/
-
-
-/* jumbotron 1 */
-/*#ProjectPageHeroGrid {
-  display: grid;
-  min-height: 500px;
-  height: 10em;
-  width: 100vw;
-  grid-template-columns: 60% 40%;
-  grid-template-areas:
-  "jumbotronImage pageheaderText"
-}
-
-#JumbotronImage{
-  background-image: url("../images/Knit-square.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vw;
-  height: calc(75vh - 25vh);
-  align-items: center;
-  justify-content: center;
-}
-
-#pageheaderText {
-  background-color: rgba(255, 255, 255, 0.8);
-  align-items: center;
-  justify-content: center;
-  width: 50vw;
-  color: black;
-  text-align: left;
-  position: relative;
-  top: 60px;
-  padding: 5%;
-  z-index: 20;
-  justify-content: center;
-
-}
-.pageheaderText{
-  width: 50vw;
-  color: black;
-  text-align: left;
-  position: relative;
-  top: 60px;
-  padding: 5%;
-  z-index: 20;
-  justify-content: center;
-}*/
-
-
-
 
 /* Cards */
 .sectionHeading {
@@ -214,11 +145,6 @@ hr {
 .cardContainer {
   text-align: center;
   padding: 15px;
-}
-
-.progress{
-  margin-bottom: 30px;
-  font-size: 12pt;
 }
 
 
@@ -239,11 +165,17 @@ hr {
 #btn-special{
   width: 175px;
 }
+
+/* Progress Bars */
 .bg-info {
     background-color: #6ADCD5!important;
 }
 .progress-bar {
   color: black;
+}
+.progress{
+  margin-bottom: 30px;
+  font-size: 12pt;
 }
 
 
@@ -299,8 +231,15 @@ hr {
 
 
 /* Media queries */
-/*@media screen and (max-width: 997px) and (min-width: 0px) {
-  #jumbotronImage {
+
+@media screen and (max-width: 997px) and (min-width: 0px) {
+.progress{
+  margin-bottom: 30px;
+  font-size: 9pt;
+}
+
+
+/*  #jumbotronImage {
     background-image:  none;
     width: 0px;
   }
@@ -312,6 +251,6 @@ hr {
   .pageheaderText h1 h3 p{
     padding: 5%;
     margin: 40px;
-  }*/
+  }
 
-
+*/

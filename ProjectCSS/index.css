@@ -1,6 +1,7 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
+  text-align: left;
 }
 h1 {
   font size: 45px;
@@ -9,6 +10,48 @@ h1 {
 p body {
   font-family: 'Mulish', sans-serif;
   text-align: left;
+}
+
+
+/* Colours for links */
+/* unvisited link */
+a:link {
+  color: #000000;
+}
+
+/* visited link */
+a:visited {
+  color: #334E58;
+}
+
+/* mouse over link */
+a:hover {
+  color: #6ADCD5;
+}
+
+/* selected link */
+a:active {
+  color: #334E58;
+}
+
+hr {
+  border: 3px #F6C35D;
+ }
+
+
+
+/* Colours for Buttons */
+ .btn-info {
+  background-color: #6ADCD5;
+  border: 0px;
+}
+.btn-outline-info {
+  border: solid 2px #6ADCD5;
+  background-color: white;
+}
+
+.btn-warning {
+  background-color: #F6C35D;
 }
 
 /* Navigation bar */
@@ -163,11 +206,12 @@ p body {
 .sectionHeading {
   text-align: center;
 }
-.showsNear  {
+.blogCards  {
   padding: 0px 30px 30px 30px;
 }
 .cardContainer {
   text-align: center;
+  padding: 15px;
 }
 
 /*search field*/
@@ -177,32 +221,18 @@ p body {
 }*/
 
 
-/* Content */
-
-
-
-/* Carousel for Charity */
-.charities {
-  height: 250px;
-  background-color: #F6F6F6;
-  justify-content: center;
-  padding: 40px;
+/* Progress Bars */
+.bg-info {
+    background-color: #6ADCD5!important;
+}
+.progress-bar {
+  color: black;
 }
 
-.carousel-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.charity-logo {
-  padding-top: 55px;
-  width: 100px;
-  height: 100px;
-}
+
 
 /* Charity Drive Cards */
-
 .card-title{
   text-align: left;
 }
@@ -221,29 +251,12 @@ p body {
 }
 
 
+.special-section {
+  margin-bottom: 48px;
+}
 
-/* Footer */
-/*.emailContain {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-}*/
 
-/* Footer form */
-/*form {
-  width: 500px;
-  margin: 35px auto;
-  padding: 45px;
-  border: 1px solid #F2F2F2;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
-  background-color: white;
-}*/
+
 .nav-item.active{
 font-type: Mulish;
 font-color: black;
@@ -270,7 +283,6 @@ font-color: black;
 /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
 .dropdown-menu {
   left: 1px;
-  ;
 }
 
 .dropdown-toggle{
@@ -321,21 +333,35 @@ font-color: black;
   padding-left: 2.375rem;
 }
 
-/**/
-footer {
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #EBFAF9;
-  margin-top: 50px;
+
+
+/* Footer Attempt 2 */
+#button-addon1 {
+  color: #ffc371;
 }
-.cardContainer {
-  margin-top: 20px;
+
+.bg-icon {
+  background-color: #EBFAF9;  
 }
-.card {
-  margin: 0 auto;
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
 }
+
+.form-group img{
+  padding: 5px;
+}
+.text-center {
+  text-align: center;
+}
+
+footer .container {
+    background-color: #EBFAF9;  
+}
+
+
 
 @media screen and (max-width: 997px) and (min-width: 0px) {
   #jumbotronImage {
@@ -350,7 +376,6 @@ footer {
   .pageheaderText {
     padding: 5%;
     margin-left: 10px;
-  }
   }
 
 
