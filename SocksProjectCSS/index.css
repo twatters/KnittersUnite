@@ -199,9 +199,7 @@ col-12{
   width: 100vw;
 }
 
-/*.row .special-section {
-  margin-top: 25px;
-}*/
+
 
 #btn-special{
   width: 255px;
@@ -238,9 +236,7 @@ col-12{
 }
 
 
-.special-section {
-  margin-bottom: 48px;
-}
+
 
 
 
@@ -297,21 +293,3 @@ col-12{
 
 
 
-/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
-.dropdown-menu {
-  left: -97px;
-}
-footer {
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #EBFAF9;
-  margin-top: 50px;
-}
-.cardContainer {
-  margin-top: 20px;
-}
-.card {
-  margin: 0 auto;
-}
