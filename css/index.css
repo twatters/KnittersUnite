@@ -141,8 +141,7 @@ hr {
   position: absolute;
   right: 0px;
   top: 74px;
-  padding-left: 10%;
-  padding-top: 8%;
+  padding: 8%;
   z-index: 100;
   justify-content: center;
 }
@@ -201,24 +200,22 @@ hr {
 
 /* Carousel for Charity */
 .charities {
-  height: 300px;
+  height: 100%;
   background-color: #F6F6F6;
-  justify-content: center;
-  padding: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  /*justify-content: center;*/
 }
 
-.carousel-section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
 
 .charity-logo {
   padding: 5px;
   width: 150px;
 }
 
+.text-center {
+  justify-content: center;
+}
 
 .special-section {
   margin-bottom: 48px;
@@ -275,17 +272,8 @@ footer .container {
     margin: 40px;
   }
 
+.charity-logo {
+  padding: 5px;
+  width: 125px;
+}
 
-
-
-
-/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH */
-/*.dropdown-menu {
-  left: -97px;
-}*/
-/*.cardContainer {
-  margin-top: 20px;
-}*/
-/*.card {
-  margin: 0 auto;
-}*/
