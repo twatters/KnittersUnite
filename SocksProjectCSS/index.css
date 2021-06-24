@@ -191,13 +191,13 @@ hr {
 }
 
 .col-4{
-  max-width: 40%;
-  margin: 24px;
+  max-width: 100%;
+  margin: 5px;
 }
 
-/*.col-12{
+col-12{
   width: 100vw;
-}*/
+}
 
 /*.row .special-section {
   margin-top: 25px;
@@ -266,13 +266,13 @@ hr {
 
 
 /* Footer form */
-form {
+/*form {
   width: 400px;
   margin: 30px auto;
   padding: 25px;
 /*  border: 1px solid #F2F2F2;
-*/
-}
+}*/
+
 
 
 
