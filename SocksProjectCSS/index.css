@@ -125,11 +125,11 @@ hr {
 }
 
 #JumbotronImage{
-  background-image: url("../images/SocksProject.png");
+  background-image: url("../images/sockProject2.png");
   background-size: cover;
   background-repeat: no-repeat;
   /*height: 30em;*/
-  width: 100vw;
+  width: 65vw;
   display: grid;
   align-items: left;
   justify-content: center;

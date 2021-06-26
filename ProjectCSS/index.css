@@ -235,7 +235,7 @@ hr {
 
 /*moving the arrow*/
 
-.dropdown-toggle::after {
+/*.dropdown-toggle::after {
    display: inline-block;
    margin: .5em;
    vertical-align: .255em;
@@ -246,42 +246,46 @@ hr {
    border-left: .3em solid transparent;
    right: 10px;
    position: absolute;
-}
+}*/
 
 /*CSS */
 /* Search bar Test */
-.dropdown-toggle {
+/*.dropdown-toggle {
   width: 100%;
   text-align: left;
   background-color: #FBFBFB;
   border: solid 2px #D6E4EC;
   color: black;
   margin-bottom: 10px;
-}
-.dropdown-menu {
-  width: calc(100% - 5%);
-}
+}*/
+
 .form-control {
   background-color: #FBFBFB;
   border: solid 2px #D6E4EC;
   color: black;
 }
-.row .search-bar{ 
+/*.row .search-bar{ 
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 0px;
-}
+}*/
 
 .dropdown-toggle{
-  color: black;
-  width: 375px;
+  width: 100%;
   text-align: left;
+  background-color: #FBFBFB;
+  border: solid 2px #D6E4EC;
+  color: black;
+  margin-bottom: 10px
+}
+.dropdown-menu {
+  width: calc(100% - 5%);
 }
 
-#margin{
+/*#margin{
   margin: 65px;
-}
+}*/
 
 /* Cards */
 .content {
