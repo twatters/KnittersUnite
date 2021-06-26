@@ -132,7 +132,7 @@ hr {
 
 
 /* Search Test */
-/*.dropdown-toggle {
+.dropdown-toggle {
   width: 100%;
   text-align: left;
   background-color: #FBFBFB;
@@ -141,7 +141,7 @@ hr {
   margin-bottom: 10px;
 }
 .dropdown-menu {
-  width: calc(100% - 5%);
+  width: calc(100% - 5%); 
 }
 
 .form-control {
@@ -150,15 +150,13 @@ hr {
   color: black;
 }
 
-.row .search-bar{ 
+/*.row .search-bar{ 
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 0px;
-}*/
-
-
-
+}
+*/
 
 
 
@@ -216,29 +214,11 @@ hr {
 }
 
 
-/* Carousel for Charity */
-/*.charities {
-  height: 250px;
-  background-color: #F6F6F6;
-  justify-content: center;
-  padding: 40px;
-}
-
-.carousel-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.charity-logo {
-  padding: 25px;
-  width: 150px;
-}*/
-
 
 .special-section {
   margin-bottom: 48px;
 }
+
 
 
 /* Footer */
