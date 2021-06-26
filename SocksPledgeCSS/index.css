@@ -316,7 +316,7 @@ col-12{
 
 
 /* Carousel for Charity */
-.charities {
+/*.charities {
   height: 250px;
   background-color: #F6F6F6;
   justify-content: center;
@@ -332,9 +332,74 @@ col-12{
 .charity-logo {
   padding: 25px;
   width: 150px;
+}*/
+
+
+/* Special Button Test */
+/*main {
+  height: 100vh;
+  width: 100vw;
 }
 
+.button-special {
+  background: #F6C35D;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1rem;
+  color: #334E58;
+  border: .25rem solid #F6C35D;
+  height: 50px;
+  width: 255px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 6px;
+}
 
+.text-sp {
+  font: Mulish 500;
+  color: #334E58;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-52%);
+  left: 0;
+  right: 0;
+}
+
+.progress-bar-sp {
+  position: absolute;
+  height: 10px;
+  width: 0;
+  right: 0;
+  top: 50%;
+  left: 50%;
+  border-radius: 200px;
+  transform: translateY(-50%) translateX(-50%);
+  background: lighten(#6ADCD5, 15%);
+}
+
+svg {
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 50%;
+  right: 0;
+}
+
+.check {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}*/
+
+/* END of Special Button Test */
 
 
 
