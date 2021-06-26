@@ -39,6 +39,19 @@ hr {
   border: 3px #F6C35D;
  }
 
+/*.element.style {
+  width: fit-content;
+}*/
+
+.sockQTY input {
+  width: fit-content;
+}
+
+.sockQTY label {
+    display: inline-block;
+    margin-bottom: .10rem;
+    margin-top: 1rem;
+}
 
 /* Colours for Buttons */
  .btn-info {
