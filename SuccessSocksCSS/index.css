@@ -1,14 +1,40 @@
+/* Thank you - Success Page CSS */
 /* Text */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 , h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
   text-align: left;
 }
+body {
+  font-family: 'Mulish', sans-serif;
+  color: #334E58;
+}
 h1 {
-  font size: 45px;
-  font-weight: 700;
+    font-weight: 700;
+    font-size: 48px;
+}
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+h4 {
+    font-weight: 400;  
+    font-size: 24px;
+}
+h5 {
+    font-weight: 600;  
+    font-size: 16px;
+}
+h6 {
+    font-weight: 400;  
+    font-size: 12px;
 }
 p {
-  font-family: 'Mulish', sans-serif;
+  font-weight: 400;  
+  font-size: 16px;
   text-align: left;
 }
 
@@ -102,7 +128,7 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: calc(50vh - 25px);
+  height: calc(75vh - 25px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,10 +155,14 @@ hr {
   border-bottom: 6px solid #6ADCD5;
 }
 
+#thankYouIcon {
+  width: 10%;
+  padding-bottom: 15px;
+}
 
 
 /* Search Test */
-.dropdown-toggle {
+/*.dropdown-toggle {
   width: 100%;
   text-align: left;
   background-color: #FBFBFB;
@@ -148,15 +178,8 @@ hr {
   background-color: #FBFBFB;
   border: solid 2px #D6E4EC;
   color: black;
-}
+}*/
 
-/*.row .search-bar{ 
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 0px;
-}
-*/
 
 
 

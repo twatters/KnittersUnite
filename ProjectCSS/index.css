@@ -1,19 +1,43 @@
-/*Prject CSS*/
-
-
+/*Project CSS*/
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
   text-align: left;
 }
-h1 {
-  font size: 45px;
-  font-weight: 700;
-}
-p body {
+body {
   font-family: 'Mulish', sans-serif;
+  color: #334E58;
+}
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+h4 {
+    font-weight: 400;  
+    font-size: 24px;
+}
+h5 {
+    font-weight: 600;  
+    font-size: 16px;
+}
+h6 {
+    font-weight: 400;  
+    font-size: 12px;
+}
+p {
+  font-weight: 400;  
+  font-size: 16px;
   text-align: left;
 }
+
 
 
 /* Colours for links */
@@ -287,10 +311,13 @@ hr {
   margin: 65px;
 }*/
 
+
 /* Cards */
 .content {
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
+
 .sectionHeading {
   text-align: center;
 }
@@ -356,15 +383,10 @@ font-color: black;
   left: 1px;
 }*/
 
-
-
-
-
 /*.form-group{
   width: 375px;
 }
 */
-
 /*.dropdown {
   width: 375px;
 }
@@ -393,6 +415,10 @@ font-color: black;
   color: #aaa;
   font-style: italic;
 }
+
+/*.form-control.shadow-0:focus {
+  box-shadow: none;
+}*/
 
 .form-group img{
   padding: 5px;
