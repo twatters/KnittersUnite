@@ -109,7 +109,9 @@ hr {
   cursor: pointer;
 }
 
-
+.row .col-5{
+  margin:auto;
+}
 
 /* jumbotron attempt 3 */
 #ProjectPageHeroGrid {
@@ -253,11 +255,17 @@ col-12{
 }
 
 
-.col-3 img{
- margin-left: 50px;
+.col .profileImage {
+display: block;
+margin-left: auto;
 }
 
-.col-5 P.profileCathy {
+.col .profileCathy{
+  margin-right: auto;
+  width: 70%;
+}
+
+.col P.profileCathy {
   border-left: 5px #F6C35D;
   border-style:  none none none solid;
   padding-left: 8px;
@@ -269,11 +277,25 @@ col-12{
 }
 
 
-.col-5 input {
-  margin-top: 20px;
-  margin-bottom: 25px;
-}
 
+.col-sm h4{
+  margin-bottom: 50px;
+}*/
+
+/*.SockQTY input {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}*/
+
+/*.SockQTY label {
+    display: inline-block;
+    margin-bottom: .10rem;
+    margin-top: 1rem;
+}*/
+
+.element.style {
+  width: fit-content;
+}
 
 /* Carousel for Charity */
 .charities {
@@ -347,9 +369,9 @@ footer .container {
     margin: 40px;
   }
 
-  .col-3 img{
+/*  .col-3 img{
  margin-left: 0px;
-     width: 140px;
+     width: 140px;*/
 
 }
 }
