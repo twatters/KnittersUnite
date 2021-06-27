@@ -83,6 +83,10 @@ hr {
   border: 0px;
 }
 
+
+
+
+
 .btn-outline-info {
   border: solid 2px #6ADCD5;
   background-color: white;
@@ -96,8 +100,15 @@ hr {
 #btn-special{
   width: 255px;
   margin-bottom: 15px;
+  animate-duration:  4s;
+  animation-name: color;
 }
 
+@keyframes   color {
+  0% {background-color: grey;}
+  50% {background-color: red;}
+  100% {background-color: #6ADCD5;}
+}
 
 
 /* Navigation bar */
