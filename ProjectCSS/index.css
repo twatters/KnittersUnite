@@ -356,29 +356,6 @@ font-color: black;
 
 
 
-/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
-/*.dropdown-menu {
-  left: 1px;
-}*/
-
-/*.form-group{
-  width: 375px;
-}
-*/
-/*.dropdown {
-  width: 375px;
-}
-*/
-
-
-
-/*for the search icon to appear*/
-/*.has-search .form-control{
-  padding-left: 2.375rem;
-}*/
-
-
-
 /* Footer Attempt 2 */
 #button-addon1 {
   color: #ffc371;
@@ -394,9 +371,6 @@ font-color: black;
   font-style: italic;
 }
 
-/*.form-control.shadow-0:focus {
-  box-shadow: none;
-}*/
 
 .form-group img{
   padding: 5px;
