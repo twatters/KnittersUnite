@@ -13,11 +13,11 @@ h1 {
     font-size: 48px;
 }
 h2 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
 }
 h3 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 32px;
 }
 h4 {
@@ -76,34 +76,11 @@ hr {
   border: solid 2px #6ADCD5;
   background-color: white;
 }
-
 .btn-warning {
   background-color: #F6C35D;
 }
 
 /* Navigation bar */
-
-/* General */
-.customNav {
-  position: fixed;
-  width: 100%;
-  background-color: white; !important;
-  z-index: 10;
-}
-.navbar-nav {
-  margin-left: auto;
-  margin-right: 0 !important;
-}
-.navbar-brand img {
-  padding-right: 15px;
-  width: 185px;
-}
-.nav-item {
-  margin: 0px 15px;
-}
-
-/* Navigation bar */
-
 /* General */
 .customNav {
   position: absolute;
@@ -120,15 +97,15 @@ hr {
   width: 185px;
 }
 .nav-item {
-  margin: 0px 15px;
+  margin: 5px 10px;
+}
+.profile {
+  width: 40px;
+  padding: 0px;
 }
 .navbar{
   padding: 0px;
 }
-.button-center {
-  text-align: center;
-}
-
 
 
 /* Navigation links */
@@ -139,6 +116,7 @@ hr {
   font-size: 14px;
   font color: #FFFFFF !important;
 }
+
 .icons {
   display: flex;
   justify-content: flex-end;
@@ -329,7 +307,9 @@ hr {
   padding: 15px;
 }
 
-
+.button-center {
+  text-align: center;
+}
 
 /* Progress Bars */
 .bg-info {
@@ -338,7 +318,10 @@ hr {
 .progress-bar {
   color: black;
 }
-
+.progress {
+  margin-bottom: 30px;
+  font-size: 10pt;
+}
 
 
 
@@ -354,11 +337,6 @@ hr {
 .tracker{
  padding: 0px 30px 30px 30px
  }
-
-.progress{
-  margin-bottom: 30px;
-  font-size: 12pt;
-}
 
 
 .special-section {

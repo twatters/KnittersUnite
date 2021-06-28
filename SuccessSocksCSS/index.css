@@ -13,11 +13,11 @@ h1 {
     font-size: 48px;
 }
 h2 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
 }
 h3 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 32px;
 }
 h4 {
@@ -38,6 +38,7 @@ p {
   text-align: left;
 }
 
+/* Colours for links */
 /* unvisited link */
 a:link {
   color: #000000;
@@ -73,7 +74,6 @@ hr {
 
 
 /* Navigation bar */
-
 /* General */
 .customNav {
   position: absolute;
@@ -90,13 +90,14 @@ hr {
   width: 185px;
 }
 .nav-item {
-  margin: 0px 15px;
+  margin: 5px 10px;
+}
+.profile {
+  width: 40px;
+  padding: 0px;
 }
 .navbar{
   padding: 0px;
-}
-.button-center {
-  text-align: center;
 }
 
 
@@ -119,6 +120,7 @@ hr {
   margin: 15px;
   cursor: pointer;
 }
+
 
 
 
@@ -183,12 +185,6 @@ hr {
 
 
 
-
-
-
-
-
-
 /* Cards */
 .sectionHeading {
   text-align: center;
@@ -215,7 +211,6 @@ hr {
 .col-3 .row {
   margin: 5px;
 }
-
 .row .special-section {
   margin-top: 25px;
 }
@@ -233,7 +228,7 @@ hr {
 }
 .progress{
   margin-bottom: 30px;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 
@@ -275,7 +270,7 @@ hr {
 @media screen and (max-width: 997px) and (min-width: 0px) {
 .progress{
   margin-bottom: 30px;
-  font-size: 9pt;
+  font-size: 8pt;
 }
 
 

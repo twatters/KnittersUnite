@@ -13,11 +13,11 @@ h1 {
     font-size: 48px;
 }
 h2 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
 }
 h3 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 32px;
 }
 h4 {
@@ -92,13 +92,14 @@ hr {
   width: 185px;
 }
 .nav-item {
-  margin: 0px 15px;
+  margin: 5px 10px;
+}
+.profile {
+  width: 40px;
+  padding: 0px;
 }
 .navbar{
   padding: 0px;
-}
-.button-center {
-  text-align: center;
 }
 
 
@@ -164,7 +165,7 @@ hr {
 .pageheaderText{
   grid-area: pageheaderText;
   width: 46vh;
-  color: black;
+  color: #334E58;
   text-align: left;
   position: absolute;
   right: 0px;
@@ -214,15 +215,19 @@ hr {
   margin-top: 25px;
 }*/
 
+.button-center {
+  text-align: center;
+}
+
+
 #btn-special{
   width: 175px;
   margin: 10px;
 }
 
 #space-content {
-  margin-top: 48px;
+  margin-top: 72px;
   margin-bottom: 48px;
-
 }
 
 
@@ -235,16 +240,13 @@ hr {
   /*justify-content: center;*/
 }
 
-
 .charity-logo {
   padding: 5px;
   width: 150px;
 }
-
 .text-center {
   justify-content: center;
 }
-
 .special-section {
   margin-bottom: 48px;
 }

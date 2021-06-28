@@ -13,11 +13,11 @@ h1 {
     font-size: 48px;
 }
 h2 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
 }
 h3 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 32px;
 }
 h4 {
@@ -38,8 +38,6 @@ p {
   text-align: left;
 }
 
-
-
 /* Colours for links */
 /* unvisited link */
 a:link {
@@ -59,6 +57,16 @@ a:hover {
 /* selected link */
 a:active {
   color: #334E58;
+}
+
+
+.btn-info {
+  background-color: #6ADCD5;
+  border: 0px;
+}
+.btn-outline-info {
+  background-color: white;
+  border: solid 2px #6ADCD5;
 }
 
 hr {
@@ -90,6 +98,7 @@ hr {
 
 
 /* Navigation bar */
+/* General */
 .customNav {
   position: absolute;
   width: 100%;
@@ -105,13 +114,14 @@ hr {
   width: 185px;
 }
 .nav-item {
-  margin: 0px 15px;
+  margin: 5px 10px;
+}
+.profile {
+  width: 40px;
+  padding: 0px;
 }
 .navbar{
   padding: 0px;
-}
-.button-center {
-  text-align: center;
 }
 
 
@@ -134,6 +144,9 @@ hr {
   margin: 15px;
   cursor: pointer;
 }
+
+
+
 
 .row .col-5{
   margin:auto;
@@ -179,7 +192,7 @@ hr {
 .pageheaderText{
   grid-area: pageheaderText;
   width: 46vh;
-  color: black;
+  color: #334E58;
   text-align: left;
   position: absolute;
   right: 0px;
@@ -202,7 +215,7 @@ hr {
 .progress{
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 12pt;
+  font-size: 10pt;
   width: 25vw;
 }
 
