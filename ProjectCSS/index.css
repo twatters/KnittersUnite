@@ -299,9 +299,9 @@ hr {
 .sectionHeading {
   text-align: center;
 }
-.blogCards  {
+/*.blogCards  {
   padding: 0px 30px 30px 30px;
-}
+}*/
 .cardContainer {
   text-align: center;
   padding: 15px;
@@ -342,7 +342,6 @@ hr {
 .special-section {
   margin-bottom: 48px;
 }
-
 
 
 .nav-item.active{

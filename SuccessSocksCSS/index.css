@@ -123,8 +123,7 @@ hr {
 
 
 .button-center {
-  margin: auto;
-  align-items: center;
+  text-align: center;
 }
 
 
@@ -177,9 +176,9 @@ hr {
   padding-top: 75px;
 }
 
-.blogCards  {
+/*.blogCards  {
   padding: 0px 30px 30px 30px;
-}
+}*/
 .cardContainer {
   text-align: center;
   padding: 15px;
@@ -188,7 +187,7 @@ hr {
 
 /* Content attempt 2 */
 .row {
-  margin: 24px;
+  /*margin: 24px;*/
   margin-top: 60px;
   margin-bottom: 48px;
 }
@@ -252,14 +251,13 @@ hr {
 /* Media queries */
 
 @media screen and (max-width: 997px) and (min-width: 0px) {
+
 .progress{
   margin-bottom: 30px;
   font-size: 8pt;
 }
 
-
 .jumboCopy {
-  width: 50%;
   padding: 40px;
   padding-top: 40px;
   padding-bottom: 24px;
@@ -273,4 +271,8 @@ hr {
 .jumboCopy h5 {
   text-align: center;
   padding-bottom: 24px;
+}
+
+#thankYouIcon {
+  padding-top: 20px;
 }
